@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import MyFirstComponent from './MyFirstComponent';
-import MySecondComponent from './MySecondComponent';
+import ButtonWithClass from './ButtonWithClass';
+import ButtonWithHooks from './ButtonWithHooks';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <MyFirstComponent />
+      <ButtonWithClass />
+      <ButtonWithHooks />
     </div>
   );
 }
